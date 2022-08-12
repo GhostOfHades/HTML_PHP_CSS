@@ -1,0 +1,177 @@
+a:link{color: white}
+a:visited   {color:gray}
+a:hover     {color:darkgray}
+a:active    {color:white}
+body
+{
+    font-family:'Monterrat', sans-serif;
+    margin:0;
+    padding: 0;
+}
+/* Navbar*/
+.navbar
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #1D2823;
+    font-family:'Monterrat', sans-serif;
+}
+#navlogo
+{
+    background-color: #1D2823;
+}
+.navbar a
+{    
+    font-family: inherit;
+    text-align:center;
+    color:#D0CCC4;
+    padding:2rem 1rem;
+    text-decoration: none;
+}
+.dropmenu .togg
+{
+    position: relative;
+    border:none;
+    outline:none;
+    font-size: large;
+    background-color: #1D2823;
+    color:#D0CCC4;
+    padding:2rem 1rem;
+    margin:0;   
+}
+.dropmenu
+{
+    display: block;
+}
+.navbar a:hover, .dropmenu-content:hover, .dropmenu:hover .togg
+{
+    background-color: #A6A8A3;
+}
+.dropmenu-content a
+{
+    background-color: #554f44;
+    text-align: left;
+    display:block;
+}
+.dropmenu-content
+{
+    display:none;
+    position: absolute;
+    box-shadow: 0rem 1rem 1rem 0rem;
+    z-index: 1;
+}
+.dropmenu:hover .dropmenu-content 
+{
+    display:block;
+    background-color: #554f44;
+}
+
+/*about page*/
+.about
+{
+    display: flex;
+    min-height:100%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    padding-left: auto;
+    padding-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Generic body display for all web pages of site*/
+#page_heading
+{
+    display:block;
+    font-family:'Monterrat', sans-serif;
+    font-size:large;
+    background-color: #906E57;
+    color:black;
+    text-align: center;
+    justify-content: center;
+}
+#backdrop
+{
+    background-image: url("bar.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1rem;   
+}
+#body_display
+{
+    display:block;
+    background-color: #d0ccc487;
+    backdrop-filter: blur(10px);
+    border-radius: 4rem;
+    margin: 1rem 20% 1rem 20%;
+    flex: 1;
+    text-align: center;
+}
+#inner_display
+{
+    padding: 1rem 10% 2rem 10%;
+}
+
+/*events page*/
+form
+{
+    width:80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+input[type=text]
+{
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: ivory;
+    margin-bottom: 1rem;
+}
+input[type=submit]
+{
+    margin:1rem 40% 0 40%;
+    height:2rem;
+    width:20%;
+    background-color: rgba(189, 189, 189, 0.842);
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+#body_display table
+{
+    width:80%;
+    height: fit-content;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#body_display th, #body_display td
+{
+    text-align: center;
+    table-layout: fixed;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* Footer code*/
+#page_footer, #page_footer table
+{
+    font-family:'Monterrat', sans-serif;
+    width:100%;
+    font-size:large;
+    background-color: #1D2823;
+    color:white;
+    vertical-align: bottom;
+    text-align: center;
+    table-layout: fixed;
+}
+.footer_bar
+{
+    margin:auto;
+}
+#studentID
+{
+    display:block;
+    text-align: left;
+}

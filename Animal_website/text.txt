@@ -1,0 +1,4 @@
+	<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">107 Kessels Rd</span>		<span itemprop="addressLocality">Nathan</span>
+ 		<span itemprop="addressRegion">QLD</span>		<span itemprop="postalCode">4053</span>
+	</div>
